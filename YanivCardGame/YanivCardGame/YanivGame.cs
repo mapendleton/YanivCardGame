@@ -19,6 +19,7 @@ namespace YanivCardGame
             }
             else
             {
+                //throw exception b/c can't return on constuctor
                 throw new ArgumentException("Invalid difficulty");
             }
             comPlayers = new List<YanivComPlayer>();
